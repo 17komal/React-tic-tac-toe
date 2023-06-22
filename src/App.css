@@ -40,3 +40,36 @@ body{
   top: 2px;
   right: 5px;
 }
+
+@media only screen and (max-width: 750px) {
+  body{
+ 
+    background-color: #2a2828;
+  }
+  .main
+  {
+    width: 90% !important;
+    border: 2px solid #bcbcbc;
+    border-radius: 0.5rem;
+    margin: 2rem 1.5rem;
+    box-shadow: none;
+    padding: 0.5rem 2rem;
+    height: 70vh;
+
+  }
+  .heading{
+    justify-content: center;
+    color: #fff;
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .scoreboard{
+    background-color: #fff;
+    width: 15rem !important; 
+    margin: 1.5rem auto !important;
+    box-shadow: 0 0 8px #aaa;
+   
+    font-size: 1.3em !important;
+}
+}

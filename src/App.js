@@ -52,7 +52,7 @@ const App = () => {
     }
     else
     {
-      console.log(checkHit);
+      
       if(checkHit === 8 )
       {        
         setNoWin('No Player Win... Restart Again');
